@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2021 The LineageOS Project
+     Copyright (C) 2021 Yet Another AOSP Project
 
      Licensed under the Apache License, Version 2.0 (the "License"
      you may not use this file except in compliance with the License.
@@ -15,16 +15,8 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Pickup gesture -->
-    <string-array name="pick_up_gesture_entries" translatable="false">
-        <item>@string/disabled</item>
-        <item>@string/pick_up_gesture_summary</item>
-        <item>@string/pick_up_wake_gesture_summary</item>
-    </string-array>
-
-    <string-array name="pick_up_gesture_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
+    <string name="disabled_for_aod">Disabled when AOD is on</string>
+    <string name="disabled_for_doze">Disabled when doze is off</string>
+    <!-- Sensor types -->
+    <string name="pickup_sensor_type">oneplus.sensor.op_motion_detect</string>
 </resources>
