@@ -151,6 +151,7 @@ VENDOR_SECURITY_PATCH := 2021-08-01
 
 # SELinux
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+include device/lineage/sepolicy/qcom/sepolicy.mk
 
 # SELinux
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/private
