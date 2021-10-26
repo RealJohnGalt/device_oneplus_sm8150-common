@@ -210,7 +210,6 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
     libqdMetaData \
-    libtinyxml \
     libvulkan \
     memtrack.msmnile \
     vendor.display.config@1.0 \
@@ -345,13 +344,6 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libstagefright_softomx.vendor
 
-# OnePlus
-PRODUCT_PACKAGES += \
-    oneplus-fwk.oneplus_msmnile
-
-PRODUCT_BOOT_JARS += \
-    oneplus-fwk.oneplus_msmnile
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
@@ -373,10 +365,6 @@ PRODUCT_PACKAGES += \
     libril_shim \
     librmnetctl \
     libxml2
-
-# Vendor libstdc++
-PRODUCT_PACKAGES += \
-    libstdc++.vendor
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
@@ -468,9 +456,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libnl \
     libwfdaac_vendor
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
